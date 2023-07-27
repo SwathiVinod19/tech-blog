@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(142, 179, 176);
+}
+
+header, h1 {
+    background-color:rgb(63, 4, 4);
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(142, 179, 176) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    box-shadow: 0 0 10px #333;
+}
+
+h1{
+    border-top: solid 1px rgb(197, 231, 228);
+    border-radius: 20px;  
+}
+
+header a {
+    margin: 15px;
+    padding: 5px;
+    color: rgb(142, 179, 176) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+
+
+.textStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(29, 65, 29);
+    background-color:rgb(197, 231, 228) ;
+}
+
+.card-title {
+    background-color: rgb(148, 182, 180) ;
+    color: rgb(30, 33, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.card {
+    background-color: rgb(191, 210, 208);
+    padding:10px;
+    /* border: 1px solid black; */
+    margin: 30px;
+    box-shadow: 0 0 10px #333;
+}
+
+.card h5, .card p {
+    color: rgb(48, 59, 26);
+    font-style:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+  
+}
+
+button {
+    padding: 6px;
+    margin: 10px;
+    background-color:rgb(83, 85, 80);
+   
+}
+#loginButton{
+    color:rgb(187, 219, 216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#signupButton{
+    background-color:rgb(148, 182, 180);
+    color: rgb(80, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.loginStyle{
+   
+    color:rgb(5, 107, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin:10px;
+
+   
+}
+.signupStyle{
+    color: rgb(117, 7, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin:10px;
+  
+       
+    
+}
+
+.login-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color:rgb(117, 7, 7);
+    background-color:rgb(197, 231, 228) ; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.signup-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color:rgb(5, 107, 97);
+    background-color:rgb(197, 231, 228) ; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#newpost {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.titleFormat{
+    color:rgb(70, 60, 60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin: 10px;
+    font-weight: bold;
+}
+#newPostButton{
+    color: rgb(119, 163, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 10px;
+}
+
+
+#content, #editedContent {
+    margin-left: 2vw;
+    margin-right: 10vw;
+}
+
+#content {
+    margin-top: 10px;
+    padding: 5px;
+    width: 50vw;
+}
+#newPostContent{
+    color:rgb(70, 60, 60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#create, #update, #delete {
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 20px;
+    color: rgb(119, 163, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#comment {
+width: 80vw;
+margin-top:20px;
+}
+
+#title, #editedTitle {
+    width: 70vw;
+    padding: 10px;
+}
+
+p.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 15px;
+}
